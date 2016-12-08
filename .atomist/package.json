@@ -1,0 +1,22 @@
+{
+    "group": "jam",
+    "name": "react-rugs",
+    "version": "0.1.0",
+    "description": "Elm Editors for use with Atomist Rug",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jerrymooyman/react-rugs"
+    },
+    "keywords": [
+        "Atomist",
+        "Rug",
+        "React"
+    ],
+    "author": "Jessica Kerr",
+    "license": "Apache-2.0",
+    "bugs": {
+    },
+    "dependencies": {
+        "@atomist/rug": "0.4.2"
+    }
+}
