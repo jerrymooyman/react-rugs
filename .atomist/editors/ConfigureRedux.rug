@@ -1,0 +1,38 @@
+/*******************************************************************/
+@tag "react"
+@tag "redux"
+editor ConfigureRedux
+
+AddActions
+AddReducers
+AddStore
+
+/*******************************************************************/
+@tag "react"
+@tag "redux"
+editor AddStore
+
+let configureStoreTemplate = "ConfigureStoreTemplate.vm"
+
+with project p
+  do merge configureStoreTemplate to "src\\stores\\configureStore.js"
+
+/*******************************************************************/
+@tag "react"
+@tag "redux"
+editor AddActions
+
+let makeActionCreatorTemplate = "MakeActionCreator.vm"
+
+with project p
+  do merge makeActionCreatorTemplate to "src\\actions\\makeActionCreator.js"
+
+/*******************************************************************/
+@tag "react"
+@tag "redux"
+editor AddReducers
+
+let rootReducerTemplate = "RootReducer.vm"
+
+with project p
+  do merge rootReducerTemplate to "src\\reducers\\rootReducer.js"
